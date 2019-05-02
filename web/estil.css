@@ -1,0 +1,96 @@
+.secao1{
+    background: url(tortaBelga.jpg) no-repeat 90px 120px, url(cheesecake.jpg) no-repeat 90px 210px, url(tiramisu.jpg) no-repeat 80px 300px,
+        url(tresleches.jpg) no-repeat 90px 400px, url(maracuja.jpg) no-repeat 70px 500px;
+    background-color: buttonface;
+    color: black;
+    padding: 5px;
+    margin-bottom: 0px;/*Margen superior com 1 pixel*/
+    float: left;/*propriedade indicando que a Área flutuará a esquerda*/
+    width: 46.5%; /*Ocupando 24% da largura total destinada para o corpo*/
+    height: 576px; /*Altura de 500 pixels*/
+}
+.secao2{
+    background-color: lightcoral;/*Cor de fundo*/    
+    padding: 5px;/*Margen interna de 3 pixels*/
+    float: right;/*propriedade indicando que a Área flutuará a direita*/
+    margin-right: -16px;
+    margin-bottom: 0px;/*Margen superior com 1 pixel*/
+    margin-left: 0px;
+    width: 53%;/*Ocupando 74% da largura total destinada para o corpo*/
+    height: 576px;/*Altura de 494 pixels*/
+}
+table {
+    width: 100%;
+    clear: both;
+    border-collapse: collapse;
+    text-transform: initial;
+    margin-top:0px;
+}
+th {
+    color: #4d4d4d;
+    font-weight: bold;
+}
+.nome{
+    text-align: left;
+}
+tr, td {
+    border:0px;
+    padding: 5px;
+    text-align: center;
+    width: 10%;
+}
+.buscarMenu{
+    font-family: 'Roboto', sans-serif;
+    background-color: darkgrey;
+    margin-top: -18px;
+    margin-right: -8px;
+    margin-left: 0px;
+    padding: 5px;
+    float: right;    
+    width: 100%; /*Ocupando 24% da largura total destinada para o corpo*/
+    height: 80px; /*Altura de 500 pixels*/
+}
+.quantidade {
+    text-align: center;
+    border: none;
+    display: inline;
+    width: 30px;
+    padding: 5px 0px;
+    margin-left: 15px;
+}
+form a {
+    cursor: pointer;
+    border: 1.3px solid #4d4d4d;
+    padding: 8px 14px;
+    border-radius: 50%;
+}
+h3{
+    text-align: center;
+}
+.nomePedido{
+    border:0px;
+    padding: 15px;
+    text-align: center;
+    width: 10%;
+}
+.qtdade{
+    border:0px;
+    padding: 15px;
+    text-align: center;
+    width: 10%
+}
+.calorias-item{
+    border:0px;
+    padding: 15px;
+    text-align: center;
+    width: 10%
+}
+.preco-item{
+    border:0px;
+    padding: 15px;
+    text-align: center;
+    width: 10%
+}
+.total{
+    text-align: right;
+}
